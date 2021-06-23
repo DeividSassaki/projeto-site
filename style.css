@@ -16,9 +16,16 @@ main{
     padding: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.26);
 }
+article{
+    padding: 10px;
+    background-color:#e7d78f ;
+    border-radius: 10px;
+}
 
 h1 {
-    text-shadow: 2px 2px 5px black;
+    background-color:#5B3724 ;
+    border-radius: 10px;
+    text-shadow: 0px 0px 5px black;
     text-align: center;
     font-size: 2em;
     color: #24170C;
@@ -47,3 +54,23 @@ a:hover {
     text-decoration: underline;
     color: rgb(26, 26, 255);
 }
+/* Color Theme Swatches in Hex */
+.wood-1-hex { color: #331F13; }
+.wood-2-hex { color: #573A23; }
+.wood-3-hex { color: #24170C; }
+.wood-4-hex { color: #7C5139; }
+.wood-5-hex { color: #5B3724; }
+
+/* Color Theme Swatches in RGBA */
+.wood-1-rgba { color: rgba(51, 31, 18, 1); }
+.wood-2-rgba { color: rgba(86, 58, 35, 1); }
+.wood-3-rgba { color: rgba(35, 23, 11, 1); }
+.wood-4-rgba { color: rgba(124, 80, 56, 1); }
+.wood-5-rgba { color: rgba(91, 54, 35, 1); }
+
+/* Color Theme Swatches in HSLA */
+.wood-1-hsla { color: hsla(22, 45, 13, 1); }
+.wood-2-hsla { color: hsla(26, 42, 23, 1); }
+.wood-3-hsla { color: hsla(27, 49, 9, 1); }
+.wood-4-hsla { color: hsla(21, 37, 35, 1); }
+.wood-5-hsla { color: hsla(20, 43, 24, 1); }
