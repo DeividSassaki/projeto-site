@@ -9,33 +9,45 @@ body{
     background-position: center;
 }
 main{
-    background-color: rgb(255, 255, 255);
+    background-color: #24170C;
     width: 90%;
     border-radius: 10px;
     margin: auto;
     padding: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.26);
 }
+table#ingredientes {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #331F13;
+    align-self: right;
+}
+table#ingredientes td{
+    padding: 5px;
+    border: 3px solid #331F13;
+}
 article{
+    text-align: center;
     padding: 10px;
     background-color:#e7d78f ;
     border-radius: 10px;
 }
-
 h1 {
     background-color:#5B3724 ;
-    border-radius: 10px;
-    text-shadow: 0px 0px 5px black;
+    border-radius: 2px;
+    text-shadow: 0px 0px 1px black;
     text-align: center;
     font-size: 2em;
     color: #070402;
 }
-
 h2 {
     font-size: 1.5em;
     text-shadow: 2px 2px 5px black;
     color: #24170C;
-    tex
+}h3{
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+    color: #24170C;
 }
 img.direito{
     float: right;
@@ -43,7 +55,12 @@ img.direito{
 img.pao{
     width: 50px;
 }
-
+td{
+    text-align: left;
+}
+td#l01{
+    text-align: right;
+}
 a {
     text-decoration: none;
     font-weight: bold;
