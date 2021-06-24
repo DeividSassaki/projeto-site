@@ -1,6 +1,6 @@
 @charset "UTF-8";
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
 }
 body{
@@ -40,6 +40,7 @@ table#ingredientes td{
 }
 
 h1 {
+    font-family: 'Big Shoulders Stencil Display', cursive;
     background-color:#5B3724 ;
     border-radius: 2px;
     text-shadow: 0px 0px 1px black;
@@ -48,6 +49,7 @@ h1 {
     color: #070402;
 }
 h2 {
+    font-family: 'Big Shoulders Stencil Display', cursive;
     font-size: 1.5em;
     text-shadow: 2px 2px 5px black;
     color: #24170C;
