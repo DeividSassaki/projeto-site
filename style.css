@@ -17,6 +17,7 @@ main{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.26);
 }
 article{
+    border: 2px solid black;
     text-align: center;
     padding: 10px;
     background-color:#e7d78f ;
