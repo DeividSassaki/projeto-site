@@ -47,6 +47,7 @@ table#ingredientes {
     align-self: right;
 }
 table#ingredientes td{
+    background-color: blanchedalmond;
     padding: 5px;
     border: 3px solid #331F13;
 }
