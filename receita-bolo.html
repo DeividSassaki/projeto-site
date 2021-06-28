@@ -12,9 +12,27 @@
 <body>
     <main>
         <header>
-            <h1>Receita de Bolo<img class="pao" src="imagens/cake01.png" alt=""></h1>
+            <table id="header"><tr><td>
+                <a href="https://github.com/DeividSassaki" target="_blank" rel="noopener noreferrer"><img alt="Vinho" height="50" width="50" src="https://unavatar.vercel.app/github/deividsassaki"></a>
+                </td>
+                <td><h1 class="pointer" onclick ="Forward()">Receita Rústica<img class="pao" src="imagens/fire.png" alt="Bolinho"></h1>
+                </td></tr>
+                    <tr>
+                        <td>
+                         <a href="https://www.facebook.com/deivid.sassaki" target="_blank"><img src="https://img.shields.io/badge/-white?logo=Facebook&logoColor=1877F2&style=plastic" target="_blank" rel="noopener noreferrer"></a>
+        
+                         <a href="https://www.linkedin.com/in/deivid-sassaki/" target="_blank"><img src="https://img.shields.io/badge/-white?logo=LinkedIn&logoColor=0A66C2&style=plastic" target="_blank" rel="noopener noreferrer"></a>
+                        </td>
+                        <td>
+                            <img class="pointer" onclick ="goBack()" src="imagens/left_64x64.png" alt="Voltar">
+                            <img class="pointer" onclick ="goForward()" src="imagens/right_64x64.png" alt="Avançar">
+                        </td>
+                    </tr>
+                </table>
         </header>
         <article>
+            <h2>Receita de Bolo<img class="pao" src="imagens/cake01.png" alt=""></h2>
+
             <h3>Ingredientes</h3>
             <table id="ingredientes">
                 <tr><td id="l01"><strong>Quantidade</strong></td><td><strong>Ingrediente</strong></td></tr>
@@ -44,5 +62,7 @@
             <a href="index.html"><img class="pao" src="imagens/Back Arrow.png" alt="Voltar"><br>VOLTAR</a>
         </article>
     </main>
+        <!--JAVASCRIPT-->
+        <script src="script.js"></script>
 </body>
 </html>
