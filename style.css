@@ -1,6 +1,8 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
-
+.r01{
+    text-align: right;
+}
 *{
     font-family:'Rye', cursive;
     font-size: 16px;
@@ -12,9 +14,10 @@ body{
 }
 .pointer{ 
     cursor: pointer; 
+    
 }
 main{
-    background-color: #24170C;
+    background-color: rgb(36, 23, 12);
     width: 90%;
     border-radius: 10px;
     margin: auto;
@@ -25,7 +28,7 @@ article{
     border: 2px solid black;
     text-align: center;
     padding: 10px;
-    background-color:#e7d78f ;
+    background-color:rgb(231, 215, 143) ;
     border-radius: 10px;
 }
 ul#centro {
@@ -35,43 +38,43 @@ ul#centro {
     text-align: left;
 }
 header {
-    border: 2px solid black;
-    text-shadow: 0px 0px 1px black;
-    background-color:#5B3724 ;
+    border: 2px solid rgb(0, 0, 0);
+    text-shadow: 0px 0px 1px rgb(0, 0, 0);
+    background-color:rgb(91, 55, 36) ;
     border-radius: 20px;
 }
 table#header {
     margin-left: auto;
     margin-right: auto;
 }
-table#ingredientes {
+.ingredientes {
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid #331F13;
+    border: 1px solid rgb(51, 31, 19);
     align-self: right;
 }
-table#ingredientes td{
-    background-color: blanchedalmond;
+.ingredientes td{
+    background-color: rgb(255, 235, 205);
     padding: 5px;
-    border: 3px solid #331F13;
+    border: 3px solid rgb(51, 31, 19);
 }
 
 h1 {
-    background-color:#5B3724 ;
+    background-color:rgb(91, 55, 36) ;
     border-radius: 2px;
-    text-shadow: 0px 0px 1px black;
+    text-shadow: 0px 0px 1px rgb(0, 0, 0);
     text-align: center;
     font-size: 2em;
-    color: #070402;
+    color: rgb(7, 4, 2);
 }
 h2 {
     font-size: 1.5em;
     text-shadow: 2px 2px 5px black;
-    color: #24170C;
+    color: rgb(36, 23, 12);
 }h3{
     text-align: center;
-    text-shadow: 2px 2px 5px black;
-    color: #24170C;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    color: rgb(36, 23, 12);
 }
 img.direito{
     float: right;
@@ -82,9 +85,7 @@ img.pao{
 td{
     text-align: left;
 }
-td#l01{
-    text-align: right;
-}
+
 a {
     text-decoration: none;
     font-weight: bold;
