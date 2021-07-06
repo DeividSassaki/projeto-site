@@ -31,6 +31,10 @@ article{
     background-color:rgb(231, 215, 143) ;
     border-radius: 10px;
 }
+a > article:hover {
+    text-decoration: none;
+    background-color: rgb(126, 116, 75);
+}
 ul#centro {
     width: 200px;
     margin-right: auto;
@@ -58,7 +62,6 @@ table#header {
     padding: 5px;
     border: 3px solid rgb(51, 31, 19);
 }
-
 h1 {
     background-color:rgb(91, 55, 36) ;
     border-radius: 2px;
@@ -93,8 +96,8 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
-    color: rgb(26, 26, 255);
+    text-decoration: none;
+    background-color: aqua;
 }
 /* Color Theme Swatches in Hex */
 .wood-1-hex { color: #331F13; }
