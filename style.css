@@ -95,10 +95,6 @@ a {
     color: rgb(58, 0, 112);
 }
 
-a:hover {
-    text-decoration: none;
-    background-color: aqua;
-}
 /* Color Theme Swatches in Hex */
 .wood-1-hex { color: #331F13; }
 .wood-2-hex { color: #573A23; }
